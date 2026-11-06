@@ -1,0 +1,17 @@
+Package: m6APrediction
+Title: Prediction of m6A RNA Modification Sites
+Version: 1.0.0
+Authors@R:
+    person("Shijin", "Yao",
+           email = "3395426565@qq.com",
+           role = c("aut", "cre"))
+Description: Provides functions to encode DNA sequence features and predict
+    N6-methyladenosine (m6A) modification sites in RNA using a trained
+    random forest classification model. Supports predictions for multiple
+    sequences and individual sites.
+License: MIT + file LICENSE
+Depends: R (>= 3.5.0)
+Imports: randomForest
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+Config/roxygen2/version: 8.0.0
