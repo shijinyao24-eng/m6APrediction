@@ -16,10 +16,9 @@ The package can be installed directly from GitHub:
 
 ```r
 install.packages("remotes")
-remotes::install_github("YOUR_USERNAME/m6APrediction")
+remotes::install_github("shijinyao24-eng/m6APrediction")
 ```
 
-Replace `YOUR_USERNAME` with the GitHub username of the repository owner.
 
 Load the package:
 
@@ -29,12 +28,12 @@ library(m6APrediction)
 
 ## Main Functions
 
-The package contains three functions:
+The package provides two exported prediction functions:
 
-- `dna_encoding()`: Converts DNA sequences into categorical nucleotide features.
 - `prediction_multiple()`: Predicts m6A probabilities and classification statuses for multiple input sequences.
 - `prediction_single()`: Predicts the m6A probability and classification status for an individual site.
 
+The internal helper function `dna_encoding()` converts DNA sequences into categorical nucleotide features for model prediction.
 ## Usage Examples
 
 ### 1. Predicting Multiple m6A Sites
