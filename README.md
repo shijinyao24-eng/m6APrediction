@@ -90,7 +90,7 @@ The function returns the predicted probability and classification status for the
 
 ## Model Performance
 
-The model is based on a random forest classifier. The ROC and Precision–Recall (PR) curves below illustrate the classification performance of the m6APrediction model.
+The model is based on a random forest classifier. The ROC and Precision–Recall (PR) curves below illustrate the classification performance of the m6APrediction model. The model was trained using 80% of the dataset, while the remaining 20% was reserved as an independent test set for performance evaluation.
 
 ### Receiver Operating Characteristic (ROC) Curve
 
