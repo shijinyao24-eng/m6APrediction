@@ -104,7 +104,6 @@ The ROC curve illustrates the relationship between the true positive rate and fa
 
 The Precision–Recall curve illustrates the trade-off between precision and recall across classification thresholds. This evaluation is particularly useful when identifying positive modification sites.
 
-Together, these curves help assess the model's ability to distinguish potential m6A modification sites from negative sites.
 
 ## Scientific Significance
 
